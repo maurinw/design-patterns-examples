@@ -19,7 +19,7 @@ Besteht typischerweise aus folgenden Komponenten:
 
 ### Unterscheidung: Aktive und Passive Observer
 
-- **Passiver Observer**: Wird vom Subjekt über eine Änderung informiert und erhält dabei alle relevanten Daten direkt übermittelt.
-- **Aktiver Observer**: Wird lediglich informiert, dass es eine Änderung gab, und holt sich anschließend selbstständig die relevanten Informationen vom Subjekt.
+- **Passiver Observer (Pull Modell)**: Wird vom Subjekt über eine Änderung informiert und erhält dabei alle relevanten Daten direkt übermittelt.
+- **Aktiver Observer (Push Modell)**: Wird lediglich informiert, dass es eine Änderung gab, und holt sich anschließend selbstständig die relevanten Informationen vom Subjekt.
 
 ---
