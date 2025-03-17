@@ -1,8 +1,7 @@
 ## Observer Pattern
 
 ### Definition
-- **Kategorie**: Verhaltensmuster (Behavioral Patterns).
-- **Zweck**: Definiert eine Eins-zu-Viele-Abhängigkeit zwischen einem Subjekt (Publisher) und mehreren Observern (Subscriber). Änderungen im Subjekt werden automatisch an die Observer weitergegeben.
+- Das Observer Pattern ist ein Verhaltensmuster, mit dem man einen Subscribe-Mechanismus definieren kann, um mehrere Objekte über Ereignisse zu benachrichtigen, die mit dem Objekt, das man beobachten, geschehen.
 
 ---
 
@@ -11,9 +10,9 @@
 Besteht typischerweise aus folgenden Komponenten:
 
 - **Subject (Publisher)**: Das Objekt, dessen Zustandsänderungen beobachtet werden.
+- **ConcreteSubject**: Konkrete Implementierung des Subjekts, das Observers verwaltet und benachrichtigt.
 - **Observer (Subscriber)**: Schnittstelle (Interface), das von Observern implementiert wird, um Benachrichtigungen zu empfangen.
 - **ConcreteObserver**: Konkrete Implementierung des Observer-Interfaces.
-- **ConcreteSubject**: Konkrete Implementierung des Subjekts, das Observers verwaltet und benachrichtigt.
 
 ---
 
