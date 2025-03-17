@@ -1,8 +1,9 @@
 ## State Pattern
 
 ### Definition
-- **Kategorie**: Verhaltensmuster (Behavioral Patterns).
-- **Zweck**: Es ermöglicht einem Objekt, sein Verhalten dynamisch zu ändern, indem interne Zustände als separate Klassen ausgelagert werden.
+- Das State Pattern ist ein Verhaltensmuster, mit dem ein Objekt sein Verhalten ändern kann, wenn sich sein interner Zustand ändert.
+
+--- 
 
 ### Aufbau des State Patterns
 
